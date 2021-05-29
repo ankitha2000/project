@@ -1,0 +1,333 @@
+<!doctype html><html lang="en"><head> 
+  <!-- Required meta tags --> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <!-- Bootstrap CSS --> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+  <title>Hello, world!</title> 
+  <style>
+ .card{
+ position:relative;
+ overflow: hidden;
+ transition: 0.2s all;
+ /* background-color: black; */
+ }
+.card-text{
+position: absolute;
+ bottom: 0;
+ left: 0px;
+ right: 0;
+ background-color:transparent;
+ overflow: hidden;
+ width: 100%;
+ height:0%;
+ transition: .5s ease-in;
+ 
+ 
+ }
+ .card:hover .card-text{
+   background-color:transparent;
+ 
+ height:100%;
+ }
+ 
+ .para1{
+ 
+ color: white;
+ /* font-size: 10px; */
+ position: absolute;
+ box-sizing: border-box;
+ box-shadow: 5px 5px 5px #000;
+ top: 50%;
+ left: 50%;
+transform: translate(-50%, -50%);
+ text-align: center;
+ 
+ }
+ </style>
+  
+  
+  
+  
+ </head> 
+ <body> 
+  <nav class="navbar navbar-expand-md bg-secondary"> 
+   <button class="navbar-toggle" data-target="#navbar" data-toggle="collapse"> MENU <span class="navbar-toggle-icon"></span> </button> 
+   <div class=" collapse navbar-collapse m-auto" id="navbar"> 
+    <ul class="nav navbar-nav"> 
+     <li class="nav-item m-auto"><a class="nav-link  text-white" href="project1home.html">Home</a></li> 
+     <li class="nav-item m-auto"><a class="nav-link  text-white" href=" ">AboutUs</a></li> 
+     <li class="nav-item m-auto"><a class="nav-link  text-white" href=" ">Gallery</a></li> 
+     <li class="nav-item m-auto"><a class="nav-link text-white" href="project1contactus.html">Contact Us</a></li> 
+     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> sign in </button> 
+    </ul> 
+   </div> 
+   <div class="modal" id="myModal"> 
+    <div class="modal-dialog"> 
+     <div class="modal-content"> 
+      <div class="modal-header"> 
+       <button type="button" class="close" data-dismiss="modal"> × </button> 
+      </div> 
+      <div class="modal-body"> 
+       <div> 
+        <label for="a">username </label> 
+        <input type="text" placeholder=" ENTER USERNAME" name="user" id="a" required> 
+       </div> 
+       <div> 
+        <label for="b">password </label> 
+        <input type="password" placeholder=" PASSWORD" name="password" id="b" required> 
+       </div> 
+       <div> 
+        <label for=" ">email</label> 
+        <input type="email" palceholder="email" required> 
+       </div> 
+       <div> 
+        <label for=" ">DOB </label> 
+        <input type="date" name="DOB"> 
+       </div> 
+       <div> 
+        <label for=" "> Gender </label> 
+        <input type="radio" name="gender" id=" ">M 
+        <input type="radio" name="gender" id=" ">F 
+       </div> 
+       <div> 
+        <label for=" ">Mobile</label> 
+        <input type="number" name="number" id=" "> 
+       </div> 
+       <div> 
+        <label for=" "></label> 
+        <input type="checkbox" name=" " id="">remember me 
+       </div> 
+      </div> 
+      <div class="modal-footer"> 
+       <button type="button" class="btn btn-danger" data-dismiss="modal">sign in</button> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </nav> 
+  <div class="jumbodron "> 
+   <div class="container m-1 p-1 "> 
+    <div class="row "> 
+     <div class="col-sm-3 "> 
+      <div class="row"> 
+       <div class="col-12"> 
+        
+        <img src="aboutentrance.jpg" width="350" height="350" alt=""> 
+        <div class="para1">
+          <h2>Large library</h2>
+          <p>we designed our library in comfortabllarg established it,in the year of 2015.we started th few number of books but it expanded to uncountable.</p> 
+       </div> 
+       </div>
+      </div> 
+     </div> 
+     <div class="col-sm-9 "> 
+      <div class="row"> 
+       <div class=" col-sm-4 col-4 m-0"> 
+        <h6>bright future</h6> 
+        <img src="puzzle.jpg" width="115px" height="120px" alt=""> 
+        <p>we designed this library to provide bright future,for the people who dreamt of large enthusiastic ideas.</p> 
+       </div> 
+       <div class=" col-sm-4 col-4 m-0"> 
+        <h6>books</h6> 
+        <img src="bright future.jpg" width="115px" height="120px" alt=""> 
+        <p>we are providing high quality of books,and varoius types of books,as per reader convince and comfortness.</p> 
+       </div> 
+       <div class=" col-sm-4 col-4 m-0"> 
+        <h6>community</h6> 
+        <img src="expert community.jpg" width="100px" height="120px" alt=""> 
+        <p>my community is very dedicated people towards the work ,to maintain library progress increase.</p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="jumbodron1 bg-secondary "> 
+   <div class="container text-danger"> 
+    <div class="row"> 
+     <div class="col-3 "> 
+      <i class="fa fa-smile-o" aria-hidden="true"></i> 
+      <h6>foreign followers</h6> 
+      <h3>563</h3> 
+     </div> 
+     <div class="col-3"> 
+      <i class="fa fa-graduation-cap" aria-hidden="true"></i> 
+      <h6>certified members</h6> 
+      <h3>100</h3> 
+     </div> 
+     <div class="col-3"> 
+      <i class="fa fa-history" aria-hidden="true"></i> 
+      <h6>years of experience</h6> 
+      <h3>5</h3> 
+     </div> 
+     <div class="col-3"> 
+      <i class="fa fa-users" aria-hidden="true"></i> 
+      <h6>students enrolled</h6> 
+      <h3>999</h3> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="jumbodron ">
+  <div class="container"> 
+   
+   <div class="row m-2 p-2 "> 
+      <h3>Who Makes the Magic Happen? </h3>
+    <h1>Know About Them</h1>
+    <div class="col-12 m-0 p-0"> 
+     <div class="card"> 
+      <img src=" card3.jpg" alt=""> 
+      <div class="card-body"> 
+       <h6>Library technian</h6>
+       <div class="card-text">
+         <div class="para1">
+        ms.Ankitha
+        <i class="fa fa-envelope-o" aria-hidden="true"></i> 
+       <i class="fa fa-facebook-official" aria-hidden="true"></i>
+         <i class="fa fa-twitter fa-lg white-text mr-4"> </i> 
+       </div> 
+       </div>
+      </div> 
+     </div> 
+     </div>
+     <div class="col-12 m-0 p-0"> 
+      <div class="card"> 
+           <img src="card4.jpg" alt=""> 
+       <div class="card-body"> 
+         <h6>Librarian</h6>
+        <div class="card-text"> 
+          <div class="para1">
+          ms.Uma
+           <i class="fa fa-envelope-o" aria-hidden="true"></i> 
+       <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        
+        <i class="fa fa-twitter fa-lg white-text mr-4"> </i> 
+        </div> 
+        </div>
+       </div> 
+      </div> 
+      </div>
+      <div class="col-12 m-0 p-0"> 
+       <div class="card"> 
+            <img src=" card5.jpg" alt=""> 
+        <div class="card-body"> 
+          <h6>Library Assistants</h6>
+         <div class="card-text"> 
+           <div class="para1">
+           ms.Harshitha
+            <i class="fa fa-envelope-o" aria-hidden="true"></i> 
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        
+        <i class="fa fa-twitter fa-lg white-text mr-4"> </i> 
+         </div> 
+         </div>
+        </div> 
+       </div>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    
+    <div class="jumbodron bg-dark">
+      <div class="text-success">
+        <h1 class="text-white">about our services</h1>
+        <div class="row">
+          <div class="col-sm-6">
+          <h6 class="text-danger">about our library services</h6>
+          <div class="col-12 col-sm-4">
+            <div class="card">
+              <img src="gallery1.jpg" alt="">
+              <div class="card-body">
+                <h3>alphabetical order of books</h3>
+                 <div class="card-text">
+                   <p class="text-primary"> we arrange the books for making people comfortable</p>  
+                 </div> 
+              </div>
+                
+            </div>
+              
+          </div>
+          <div class="col-12 col-sm-4 ">
+            <div class="card">
+              <img src="book.webp" alt="">
+              <div class="card-body">
+                <h3>freedom to read any where</h3>
+                 <div class="card-text">
+                   <p class="text-primary">we gave freedom to read anywhere</p>  
+                 </div> 
+              </div>
+                
+            </div>
+              
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="card">
+              <img src="card2.jpg" alt="">
+              <div class="card-body">
+                <h3>friendly faculty</h3>
+                 <div class="card-text">
+                 <p class="text-primary">we have freindly faculty</p>    
+                 </div> 
+              </div>
+            </div>    
+            </div>
+            <div class="col-sm-6">
+              
+                 <h6 class="text-success">about library canteen</h6>
+          <div class="col-12 col-sm-4">
+            <div class="card">
+              <img src="fruits.jpg" alt="">
+              <div class="card-body">
+                <h3>healthy food</h3>
+                 <div class="card-text">
+                    <p class="text-primary">we are providing healthy food</p> 
+                 </div> 
+              </div>
+                
+            </div>
+              
+          </div>
+          <div class="col-12 col-sm-4 ">
+            <div class="card">
+              <img src="water2.jpg" alt="">
+              <div class="card-body">
+                <h3>water</h3>
+                 <div class="card-text">
+                     <p class="text-primary">we are providing water</p>
+                 </div> 
+              </div>
+                
+            </div>
+              
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="card">
+              <img src="coffee.webp" alt="">
+              <div class="card-body">
+                <h3>special sancks</h3>
+                 <div class="card-text">
+                    <p class="text-primary">we are providing special snacks</p>
+                 </div> 
+              </div>
+                
+            </div>
+              
+          </div>
+            
+        </div>
+          
+      </div>
+        
+    </div>
+    <!-- Optional JavaScript --> 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+   </div> 
+  </div> 
+ 
+</body></html>
